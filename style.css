@@ -341,9 +341,12 @@ body {
   position: absolute;
   bottom: 10vmin;
   transform-origin: bottom center;
+  width: 100%;
+  height: auto;
   z-index: 25;
   --fl-speed: 0.8s;
   color: #d895da;
+  animation: growing-grass-ans--1 2s 2.6s backwards;
 }
 
 @keyframes growing-grass-ans--1 {
